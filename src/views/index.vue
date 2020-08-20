@@ -185,7 +185,7 @@
       </div>
     </div>
 
-    <div class="readme">
+    <div class="readme" v-if="this.readme !== undefined">
       <div class="card-header">
         <svg
           class="octicon octicon-book"
